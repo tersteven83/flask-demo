@@ -1,0 +1,5 @@
+zao ny atao rehefa mi-build azy
+$ docker build -t steevi83/flask-demo:latest .
+
+de ty ny mi-run azy
+$ docker-compose -f docker-compose.yml up

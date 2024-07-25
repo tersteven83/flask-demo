@@ -1,0 +1,10 @@
+version: '2'
+services:
+  flask:
+    image: steevi83/flask-demo:latest
+    ports:
+      - 5000:5000
+    volumes:
+      - flask-demo:/usr/src/app/instance
+volumes:
+  flask-demo:
